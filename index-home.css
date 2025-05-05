@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100% !important;
+    height: 300px  !important;
+}
+.home{
+    width: 100% !important;
+    height: 900px !important;
+}
+
+.footer{
+    width: 100% !important;
+    height: 462px !important;
+}
