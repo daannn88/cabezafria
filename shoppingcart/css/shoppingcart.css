@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: normal;
+    background-color: #0F1427;
+    color: #EDE8DC;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+a{
+    color: #B5B4AA;
+    text-decoration: none;
+}
+.left {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+.right {
+    width: 300px;
+}
+
+h2,
+h3 {
+    margin-top: 0;
+    color: #B5B4AA;
+    font-family: "Anton", sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    margin-left: 20px;
+}
+span {
+    color: #B5B4AA;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.image-placeholder {
+    width: 80px;
+    height: 100px;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.details {
+    flex-grow: 1;
+}
+
+.remove {
+    text-align: right;
+    font-size: 12px;
+    color: #B5B4AA;
+    cursor: pointer;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.summary {
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    /* background-color: white; */
+}
+
+.summary input {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    background-color: #B5B4AA;
+    color: black;
+}
+
+.summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.button {
+    background-color: #6A7377;
+    color: #EDE8DC;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.info-section {
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.accordion {
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.accordion-content {
+    display: none;
+    color: #EDE8DC;
+    margin-top: 10px;
+}
+
+.accordion.open .accordion-content {
+    display: block;
+}
