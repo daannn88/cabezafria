@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    background-color: #0F1724;
+}
+/* estilos del main__product product */
+
+.container {
+    max-width: 96vw;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 .8rem;
+}  
+
+/* products-1*/
+
+main.site__main.main {
+    display: flex;
+    justify-content: center;
+    height: 60rem;
+}
+
+.main__content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    padding: 50px;
+}
+
+.product__images-group {
+    background-color: #EDE8DC;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 7px;
+    max-width: 845px;
+}
+
+.product__image {
+    display: flex;
+    width: 300px;
+    padding: 50px;
+    border: 1px solid rgb(224, 224, 224);
+    filter: drop-shadow(-4px 4px 1.7px #000);
+}
+/* estilos de main__info info */
+
+section.main__info.info {
+    display: flex;
+    width: 490px;
+    justify-content: center;
+    background-color: #EDE8DC;
+    border: 1px solid #0F1724; 
+    color: black;
+}
+
+.info__container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 30rem;
+}
+
+.info__title {
+    height: 20%;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal; 
+    
+
+}
+
+.info__description {
+    height: 60%;
+}
+
+.info__features-list {
+    padding: 0px;
+    list-style: none;
+}
+
+.info__actions {
+    display: flex;
+    height: 100%;
+    gap: 40px;
+    font-family: Inter;
+}
+
+button.info__btn.info__btn--black {
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    border: 1px solid rgb(224, 224, 224);
+    filter: drop-shadow(-4px 4px 1.7px #000);
+    background: #163E56;
+    color: #B5B4AA;
+}
+
+button.info__btn.info__btn--outline {
+    height: 40px;
+    width: 140px;
+    border: 1px solid rgb(224, 224, 224);
+    filter: drop-shadow(-4px 4px 1.7px #000);
+    border-radius: 10px;
+    background: #6A7377;
+    color: #ede8dc;
+}
+
+button.info__btn.info__btn--size {
+    height: 40px;
+    width: 140px;
+    border: 1px solid rgb(224, 224, 224);
+    filter: drop-shadow(-4px 4px 1.7px #000);
+    border-radius: 10px;
+    background: #6A7377;
+    color: #ede8dc;
+}
+
+/* carrusel de products-1 */
+
+section.site__carousel.carousel {
+    height: 570px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel__container {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.carousel__list {
+    display: flex;
+    gap: 0.7rem;
+    scroll-snap-type: x mandatory;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+}
+
+.carousel__item {
+    max-width: 20rem;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    text-align: center;
+    background-color: #EDE8DC;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+.carousel__image {
+    width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+.carousel__text-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #163E56;
+}
+
+.carousel__texts{
+    margin-top: 2rem;
+}
+
+.carousel__brand {
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+.carousel__model {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Flechas */
+
+.carousel__nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.carousel__nav--prev {
+    left: 0.5rem;
+}
+
+.carousel__nav--next {
+    right: 0.5rem;
+}
