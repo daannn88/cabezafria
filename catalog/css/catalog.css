@@ -24,7 +24,7 @@ body {
 .main__container__section-filter{
     padding-left: 5%;
     @media (min-width:768px) {
-        padding-left: 12%;
+        padding-left: 9%;
     }
 }
 
@@ -51,7 +51,7 @@ body {
 .main__container__section-catalog{
     padding-right: 5%;
     @media (min-width:768px) {
-        padding-right: 12%;
+        padding-right: 9%;
     }
 }
 
