@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100% !important;
+    height: 300px  !important;
+}
+.shoppingcart{
+    width: 100% !important;
+    height: 750px !important;
+}
+
+.footer{
+    width: 100% !important;
+    height: 480px !important;
+}
