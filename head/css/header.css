@@ -141,7 +141,7 @@ body {
 .header__container__section-2__marks-bar{
     max-width: 70%;
     padding: .5rem 1.5rem;
-    overflow: auto;
+    overflow: hidden;
     white-space: nowrap;
 }
 
@@ -205,66 +205,4 @@ body {
         width: 142px;
     }
     
-}
-
-/* main */
-
-.main__container__section-1{
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0 1rem 0;
-}
-
-.main__container__section-1__img-container{
-    background-image: url("../img/img/newera.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 90%;
-    height: 16rem;
-    display: flex;
-    filter: drop-shadow(-7px 6px 5px black);
-    justify-content: space-between;
-    @media (min-width:768px) {
-        width: 85%;
-        height: 20rem;
-    }
-}
-
-.main__container__section-1__img-container__btns{
-    height: 2rem;
-    width: 2rem;
-    margin: 7rem 1.5rem;
-    background-color: #6a7377;
-    border: solid 1px #ede8dc ;
-    @media (min-width:768px) {
-        margin: 9rem 1.5rem;
-    }
-}
-
-.main__container__section-1__img-container__btn__left{
-    width: 5rem;
-}
-
-.main__container__section-1__img-container__btn__rigth{
-    width: 3rem;
-}
-
-.main__container__section-2__video-container{
-    background-color: #0f1724;
-    display: flex;
-    justify-content: center;
-    padding: 2rem 0;
-}
-
-.main__container__section-2__video-container__video{
-    width: 80%;
-    
-}
-
-.container {
-    max-width: 96vw;
-    margin: 0 auto;
-    box-sizing: border-box;
-    padding: 0 .8rem;
 }
